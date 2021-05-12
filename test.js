@@ -1,5 +1,4 @@
-import rq from './requestAnimation.js'
+// import { moveHeadToEnd } from './handleArrayBySub.js'
+const s = require('./handleArrayBySub')
 
-rq(() => {
-    console.log('a');
-}, 2000)
+console.log(s.moveHeadToEnd(['a', 'b', 'c', 'e'])); //[ 'b', 'c', 'a' ]

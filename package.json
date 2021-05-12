@@ -10,7 +10,7 @@
         "type": "git",
         "url": "git+https://github.com/codingbees/utiljs.git"
     },
-    "type": "module",
+    "type": "commonjs",
     "author": "",
     "license": "ISC",
     "bugs": {
